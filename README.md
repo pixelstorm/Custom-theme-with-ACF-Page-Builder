@@ -1,4 +1,4 @@
-# Custom-theme-with-ACF-Page-Buuld
+# Custom theme with ACF Page Builder
 1. Create an acf-json folder on your theme directory and keep changes to the acf field json under version control
 https://www.advancedcustomfields.com/resources/local-json/
 https://www.awesomeacf.com/how-to-avoid-conflicts-when-using-the-acf-local-json-feature/

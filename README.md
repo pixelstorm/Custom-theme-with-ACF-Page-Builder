@@ -6,6 +6,8 @@ https://www.awesomeacf.com/how-to-avoid-conflicts-when-using-the-acf-local-json-
 1. Hide the custom fields option on the production site https://www.awesomeacf.com/snippets/hide-the-acf-admin-menu-item-on-selected-sites/
 5. Use Global block for Footer CTA Strip. If the content for this block changes at any point then updating this block on a website with 400 pages would be a mission.
 1. Always check a field value exists before trying to display the value. php error will occur if the value does not exist. https://www.advancedcustomfields.com/resources/get_field/
+2. Dont build breadcrumbs as a block, build it into the template.
+3. Dont build inner page title / banners as a block, build it into the template.
 
 How to build ACF block page builder system:
 https://youtu.be/vq5ZTOQw7hg

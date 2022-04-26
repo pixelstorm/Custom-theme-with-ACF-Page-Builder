@@ -1,4 +1,5 @@
 # Custom theme with ACF Page Builder
+1. Before building a block consider if its a global content block, non-global block, or global block with the ability to be overridden on a page level.
 1. Reduce the amount of blocks you create by incorporating block options into the block. For instance. A "text with media" block can have a "reverse order" option, to swap the image over to the left or right of the text, rather then creating an entirely new block. Furthormore, the media could be an image or a video, so we can build in an option for the block to support both image or video.
 2. Always add default field values to the block fields when creating the blocks in the acf settings. 
 3. Dont expose any class names or code in the block builder.

@@ -2,7 +2,7 @@
 1. Before building a block consider if its a global content block, non-global block, or global block with the ability to be overridden on a page level.
 1. Reduce the amount of blocks you create by incorporating block options into the block. For instance. A "text with media" block can have a "reverse order" option, to swap the image over to the left or right of the text, rather then creating an entirely new block. Furthormore, the media could be an image or a video, so we can build in an option for the block to support both image or video.
 2. Always add default field values to the block fields when creating the blocks in the acf settings. 
-3. Dont expose any shortcodes or code in the block builder, this includes creating acf fields to insert unique classnames.
+3. Dont expose any shortcodes (gravity forms is Okay) or code in the block builder, this includes creating acf fields to insert unique classnames.
 4. Always use the wysiwyg text editor instead of textarea field. 
 5. Create an acf-json folder on your theme directory and keep changes to the acf field json under version control https://www.advancedcustomfields.com/resources/local-json/
 https://www.awesomeacf.com/how-to-avoid-conflicts-when-using-the-acf-local-json-feature/
